@@ -7,7 +7,7 @@ FPS = 30
 screen = pygame.display.set_mode((800, 530))
 
 
-def bird(a, b, size):
+def bird(a, b, size): # project1
     q = []
     w = []
     for k in range(a, a+15*size, 1):
